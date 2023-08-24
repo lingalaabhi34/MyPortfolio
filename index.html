@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+          <a class="navbar-brand" href="#">Portfolio</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#portfolio">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <header id="about" class="bg-primary text-white text-center py-4">
+       <div>
+        <h1 class="display-4 fw-normal">Welcome to my Portfolio</h1>
+        <p class="fs-3 fw-lighter">I showcase my projects and skills here</p>
+       </div>
+      </header>
+      <section class="container">
+        <h1 class="text-center py-4">About Me</h1>
+        <div class="row">
+            
+            <img class="col-sm-12 col-md-6"   src="https://images.unsplash.com/photo-1534972195531-d756b9bfa9f2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8Y29kZXJ8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60" alt="img">
+            <p class="col-sm-12 col-md-6">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec egestas felis et luctus elementum. Morbi lacinia nisl id ex accumsan posuere. Nulla facilisi. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Donec elementum nunc at augue faucibus, vel fringilla sem mollis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+        </div>
+    </section>
+    <section id="portfolio" class="bg-light  pt-4 pb-3">
+        <div class="container">
+           <h1 class="text-center py-3">Portfolio</h1>
+           <div class="row">
+            <div class="col-sm-12 mt-sm-4 col-md-4">
+            <div class="card">
+                <img class="card-img-top" src="https://images.unsplash.com/photo-1580927752452-89d86da3fa0a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8Y29kaW5nfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60" alt="img" >
+                <div class="card-body">
+                    <h4>Project 1</h4>
+                <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</p>
+                <button class="btn btn-primary">Learn More</button>
+                </div>
+            </div>
+            </div>
+            <div class="col-sm-12 mt-sm-4 col-md-4">
+                <div class="card">
+                    <img class="card-img-top" src="https://images.unsplash.com/photo-1580927752452-89d86da3fa0a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8Y29kaW5nfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60" alt="img" >
+                    <div class="card-body">
+                        <h4>Project 1</h4>
+                    <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</p>
+                    <button class="btn btn-primary">Learn More</button>
+                    </div>
+                </div>
+                </div>
+                <div class=" col-sm-12 mt-sm-4 col-md-4">
+                    <div class="card">
+                        <img class="card-img-top" src="https://images.unsplash.com/photo-1580927752452-89d86da3fa0a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8Y29kaW5nfGVufDB8fDB8fHww&auto=format&fit=crop&w=800&q=60" alt="img" >
+                        <div class="card-body">
+                            <h4>Project 1</h4>
+                        <p>Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet.</p>
+                        <button class="btn btn-primary">Learn More</button>
+                        </div>
+                    </div>
+                    </div>
+           </div>
+        </div>
+    </section>
+    <section id="contact" class="form-container py-4">
+        <h1 class="text-center py-4">Contact</h1>
+        <div class="row">
+            <div class="col-sm-12 col-md-6 d-flex mx-auto align-items-center flex-column   container">
+                <label for="name" class="form-label mt-3 d-block text-start w-100">Name</label>
+                <input type="text" id="name" class="form-control" placeholder="Abhi">
+                <label for="email" class="form-label mt-3 d-block text-start w-100">Name</label>
+                <input type="email" id="email" class="form-control" placeholder="Abhi@gmail.com">
+                <label for="msg" class="form-label mt-3 d-block text-start w-100">Message</label>
+                <textarea id="msg" class="form-control form-control" rows="5" placeholder="Write your Message"></textarea>
+            </div>
+        </div>
+    </section>
+    <footer class="bg-dark text-white text-center py-3">
+        © 2023 My Portfolio. All rights reserved.
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</body>
+</html>
